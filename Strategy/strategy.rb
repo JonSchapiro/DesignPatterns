@@ -59,9 +59,9 @@ DeloiTTe = Deloitte.new('Deloitte');
 
 business = Business.new('My First Business')
 business.set_strategy(PWC)
-business.consult
+business.consult # I am consulting the PwC way!
 business.set_strategy(KpMg)
-business.consult
+business.consult # I am consulting the KPMG way!
 
 
 

@@ -55,9 +55,9 @@
 try {
   var business = new Business('My First Business');
   business.setStrategy(PwC);
-  business.consult();
+  business.consult(); // I am consulting the PwC way!
   business.setStrategy(KPMG);
-  business.consult();
+  business.consult(); // Error: This Consulting firm doesnt have a strategy! Make sure they implement one before going to a business.
   
 
 } catch (e){
