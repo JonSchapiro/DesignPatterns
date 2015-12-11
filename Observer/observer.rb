@@ -18,9 +18,9 @@ class Subject
 
   def removeObserver(observer)
     
-    @observers.each do |observer|
-      if observer == observer
-        #remove observer
+    @observers.each do |observer,index|
+      if observer.equal? observer
+       @observers.delete(index)
       else 
         raise "The subject does not notify this observer"
       end
