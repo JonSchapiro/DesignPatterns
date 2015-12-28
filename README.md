@@ -1,4 +1,4 @@
-# DesignPatterns
+ls# DesignPatterns
 My favorite Design Patterns in both Ruby and Javascript!
 
 ## Strategy Pattern
@@ -9,3 +9,6 @@ My favorite Design Patterns in both Ruby and Javascript!
 
 ## Decorator Pattern
 - Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+## Factory Pattern
+- A creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.
